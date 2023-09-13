@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 5</title>
+    <style>
+        textarea {resize: none;}
+        h3 {
+            color: rgb(20, 67, 99);
+            text-align: center;}
+    </style>
+</head>
+<body>
+    <h3>Customer Feedback Form</h3>
+    <br>
+    <form>
+        <label for="input_fn"> <b>First Name:</b></label>
+        <input type="text" id = "input_fn">
+        <br><br>
+        <label for="input_ln"> <b>Last Name:</b></label>
+        <input type="text" id = "input_fn">
+        <br><br>
+        <label for="input_gender"><b> Gender:</b></label>
+        <input type="radio" name="gender_grp" value="Male"> Male
+        <input type="radio" name="gender_grp" value="Female"> Female
+        <br><br>
+        <label for=""><b>Civil Status: </b></label>
+        <select>  
+            <option selected disabled>Choose status</option>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Widowed</option>
+            <option>Divorced</option>
+        </select>   
+        <br><br>
+        <label><b>Select applicable comments:</b></label>
+        <br>
+        <input type="checkbox"> Approachable employee <br>
+        <input type="checkbox"> Products in good quality <br>
+        <input type="checkbox"> Good service <br>
+        <input type="checkbox"> Delivered in time
+        <br><br>
+        <label><b>Feedback: </b></label>
+        <br>
+        <textarea placeholder="Enter your feedback here" rows="5"></textarea>
+        <br><br>
+        <button>Submit</button>
+    
+    </form>
+    
+</body>
+</html>
